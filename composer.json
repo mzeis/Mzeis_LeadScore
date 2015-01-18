@@ -1,0 +1,29 @@
+{
+    "name": "mzeis/lead-score",
+    "description": "Calculates lead scores based on customer actions.",
+    "require": {
+        "php": "~5.4.11|~5.5.0|~5.6.0",
+        "magento/framework": "*",
+        "magento/magento-composer-installer":"*"
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+        "MIT"
+        ],
+    "extra": {
+        "map": [
+            [
+            "*",
+            "Mzeis/LeadScore"
+            ]
+        ]
+    },
+    "authors": [
+        {
+            "name": "Matthias Zeis",
+            "homepage": "http://www.matthias-zeis.com/",
+            "role": "Developer"
+        }
+    ]
+}
